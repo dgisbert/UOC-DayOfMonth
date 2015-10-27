@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.booreg.apps.dayofmonth.activities.ResultActivity">
+
+    <TextView
+        android:text="@string/TXT00003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#00ff00"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        style="@style/mystyle"
+        android:visibility="invisible"
+        android:id="@+id/txtRight"
+        android:gravity="center" />
+
+    <Button
+        style="@style/mystyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TXT00005"
+        android:id="@+id/btnStartAgain"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:onClick="btnReturn"
+        android:gravity="center" />
+
+    <TextView
+        android:text="@string/TXT00004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff0000"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        style="@style/mystyle"
+        android:visibility="invisible"
+        android:id="@+id/txtFailed"
+        android:gravity="center" />
+
+    <Button
+        style="@style/mystyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TXT00006"
+        android:id="@+id/btnTryAgain"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:onClick="btnReturn"
+        android:gravity="center" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android
+{
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig
+    {
+        applicationId "com.booreg.apps.dayofmonth"
+        minSdkVersion 8
+        targetSdkVersion 23
+        versionCode 1
+        versionName "v.1.0.0"
+    }
+    buildTypes
+    {
+        release
+        {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'org.apache.commons:commons-lang3:3.4'
+}

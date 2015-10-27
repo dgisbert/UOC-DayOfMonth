@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Manifest strings -->
+
+    <string name="app_name">Day of month</string>
+
+    <!-- Activity titles -->
+
+    <string name="activity_result">Result</string>
+
+    <!-- Widget strings    -->
+
+    <string name="TXT00001">What is the current day number?</string>
+    <string name="TXT00002">Send</string>
+    <string name="TXT00003">Right!!</string>
+    <string name="TXT00004">You have failed, try again!!</string>
+    <string name="TXT00005">Start again</string>
+    <string name="TXT00006">Try again</string>
+
+    <!-- Application messages -->
+
+    <string name="MSG00001">Enter the day number of today</string>
+    <string name="MSG00002">Any month hasn\'t more than 31 days</string>
+
+</resources>
